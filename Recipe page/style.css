@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #d3dcba;
+    color: #333;
+}
+:root{
+    --primary-color: #4CAF50;
+    --secondary-color: #55e6348f;
+    --blue: #4e90c6;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
