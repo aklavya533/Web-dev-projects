@@ -5,16 +5,46 @@
 }
 body{
     font-family: 'Arial', sans-serif;
-    background-color: #d3dcba;
+    background-color: #ece0ebef;
     color: #333;
 }
 :root{
-    --primary-color: #4CAF50;
+    --primary-color: #b995a8c2;
     --secondary-color: #55e6348f;
     --blue: #4e90c6;
+}
+@media screen and (width: 768px) {
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 img{
     max-width: 100%;
     height: auto;
     float: right;
+    border-radius: 10px;
+}
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    padding: 20px;
+}
+.more li {
+    list-style: none;
+    text-align: left;
+    margin: 5px 0;
+}
+.more h2{
+    border: 2px solid rgb(206, 214, 64);
+    padding: 5px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+ul li a{
+    text-decoration: none;
+    
 }
