@@ -12,18 +12,61 @@ body{
     --primary-color: #b995a8c2;
     --secondary-color: #55e6348f;
     --blue: #4e90c6;
-}
-@media screen and (width: 768px) {
-    img{
-        max-width: 100%;
-        height: auto;
-    }
+    --sec-main-color: #67c7d3;
 }
 img{
     max-width: 100%;
     height: auto;
-    float: right;
+    display: block;
     border-radius: 10px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+.description ul{
+     padding: 4px;
+     border: 2px solid red;
+     border-radius: 10px;
+     margin: 10px;
+}
+.description li{
+    list-style: square;
+    list-style-position: inside;
+    margin: 5px 0;
+}
+.ingredients ul{
+     padding: 5px;
+     border: 2px solid red;
+     border-radius: 10px;
+     margin: 10px;
+}
+#recipe{
+    background-color: var(--primary-color);
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.ingredients ul{
+    list-style: square;
+    list-style-position: inside;
+    margin: 5px 0;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color: var(--sec-main-color);
+    color: rgb(166, 48, 48);
 }
 footer{
     background-color: var(--primary-color);
