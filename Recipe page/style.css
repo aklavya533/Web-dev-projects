@@ -8,8 +8,30 @@ body{
     background-color: #ece0ebef;
     color: #333;
 }
+@media (max-width: 600px) {
+  section {
+    padding: 10px;
+  }
+  img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .container{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 :root{
-    --primary-color: #b995a8c2;
+    --primary-color: #9cd1b9ad;
     --secondary-color: #55e6348f;
     --blue: #4e90c6;
     --sec-main-color: #67c7d3;
@@ -24,6 +46,10 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
 }
+main{
+    padding: 20px;
+}
+
 .description ul{
      padding: 4px;
      border: 2px solid red;
@@ -53,6 +79,10 @@ h2{
     list-style: square;
     list-style-position: inside;
     margin: 5px 0;
+}
+.container{
+    overflow-x: auto;
+    white-space: nowrap;
 }
 table{
     width: 100%;
